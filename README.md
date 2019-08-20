@@ -26,7 +26,13 @@ Model 3: Accuracy (Accuracy = 0.97), recall_score (recall_score = 0.94). Both th
 ### Part 6: Discussion
 The focus of this project is to practice how to deal with the imbalanced sample size, as well as how the different sample size would impact the performance of the mdoels. 
 
+In addition, the cross validation technique was also used to cross check the performance of the models. 
+
 To further improve the performance, some other classification models could be used, such as SVM, RandomForest, etc. or the ensembling of several classification models could be used for majority vote. 
+
+### The code other details for this project
+
+https://github.com/xslittlemaggie/Deep-Learning-Machine-Learning-Projects/blob/master/CreditCard_LogisticRegression_UnderSample_OverSample.ipynb
 
 
 
