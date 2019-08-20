@@ -30,7 +30,7 @@ In addition, the cross validation technique was also used to cross check the per
 
 To further improve the performance, some other classification models could be used, such as SVM, RandomForest, etc. or the ensembling of several classification models could be used for majority vote. 
 
-### The code other details for this project
+### The code and other details for this project
 
 https://github.com/xslittlemaggie/Deep-Learning-Machine-Learning-Projects/blob/master/CreditCard_LogisticRegression_UnderSample_OverSample.ipynb
 
