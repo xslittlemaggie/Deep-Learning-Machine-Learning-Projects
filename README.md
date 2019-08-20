@@ -1,4 +1,4 @@
-# Credit Card Fraud Detection
+# Credit Card Fraud Detection Project
 ### Part 1: The purpose of the project
 The purpose of this project is to detect the fraud for credit card records. 
 
