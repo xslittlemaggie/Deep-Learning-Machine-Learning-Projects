@@ -1,4 +1,4 @@
-# Credit Card Fraud Detection Project
+# Project 1: Credit Card Fraud Detection Project
 ### Part 1: The purpose of the project
 The purpose of this project is to detect the fraud for credit card records. 
 
@@ -36,4 +36,36 @@ https://github.com/xslittlemaggie/Deep-Learning-Machine-Learning-Projects/blob/m
 
 
 
+
+# Project 2: Wine clssification with Decision Tree & Random Forest
+### Part 1: The purpose of the project
+The purpose of this project is to class the different types of wine. 
+
+### Part 2: About the data
+The data for this project is the sklearn built-in dataset, wine
+
+### part 3: About the techqniues
+#### 3.1 test_train_split to split the training and testing datasets
+#### 3.2 use cross_validation cross check the model performance
+#### 3.3. Decision Tree & Random Forest main parameters
+- 1. Decision Tree visualization
+- 2. Model fine tune: 
+  - n_estimators (only for random forest, and the most important parameter)
+  - Criterion
+  - random_state
+  - splitter
+  - max_depth
+  - min_samples_leaf & min_samples_split
+  - max_features
+
+### part 4: Fine tune the parameters of Decision Tree, Random Forest to get the best model  
+
+### Part 5: Comparson of the Decision Tree and Random Forest models. 
+Under the similar conditions, the performance of Random Forest should always be better than that of the Decision Tree since the Decision Tree is included in the Random Forest. 
+
+### Part 6: Discussion
+Usually the decision tree model or random forest model are easy to be overfitting. The parameters adjusting is usually to decrease the model complexity, to aovid overfitting.
+
+### The code and other details for this project
+https://github.com/xslittlemaggie/Deep-Learning-Machine-Learning-Projects/blob/master/Wine_DecisionTree_RandomForest.ipynb
 
