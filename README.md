@@ -1,4 +1,4 @@
-# Project 1: Credit Card Fraud Detection Project
+# Project 1: [Credit Card Fraud Detection](https://github.com/xslittlemaggie/Machine-Learning-Projects/blob/master/CreditCard_LogisticRegression_UnderSample_OverSample.ipynb)
 ### Part 1: The purpose of the project
 The purpose of this project is to detect the fraud for credit card records. 
 
@@ -30,14 +30,9 @@ In addition, the cross validation technique was also used to cross check the per
 
 To further improve the performance, some other classification models could be used, such as SVM, RandomForest, etc. or the ensembling of several classification models could be used for majority vote. 
 
-### The code and other details for this project
-
-https://github.com/xslittlemaggie/Deep-Learning-Machine-Learning-Projects/blob/master/CreditCard_LogisticRegression_UnderSample_OverSample.ipynb
 
 
-
-
-# Project 2: Wine clssification with Decision Tree & Random Forest
+# Project 2: [Wine clssification with Decision Tree & Random Forest](https://github.com/xslittlemaggie/Machine-Learning-Projects/blob/master/Wine_DecisionTree_RandomForest.ipynb)
 ### Part 1: The purpose of the project
 The purpose of this project is to class the different types of wine. 
 
@@ -66,6 +61,4 @@ Under the similar conditions, the performance of Random Forest should always be 
 ### Part 6: Discussion
 Usually the decision tree model or random forest model are easy to be overfitting. The parameters adjusting is usually to decrease the model complexity, to aovid overfitting.
 
-### The code and other details for this project
-https://github.com/xslittlemaggie/Deep-Learning-Machine-Learning-Projects/blob/master/Wine_DecisionTree_RandomForest.ipynb
 
