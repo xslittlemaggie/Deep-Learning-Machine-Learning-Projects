@@ -32,7 +32,7 @@ To further improve the performance, some other classification models could be us
 
 
 
-# Project 2: [Wine clssification with Decision Tree & Random Forest](https://github.com/xslittlemaggie/Machine-Learning-Projects/blob/master/Wine_DecisionTree_RandomForest.ipynb)
+# Project 2: [Wine Clssification with Decision Tree & Random Forest](https://github.com/xslittlemaggie/Machine-Learning-Projects/blob/master/Wine_DecisionTree_RandomForest.ipynb)
 ### Part 1: The purpose of the project
 The purpose of this project is to class the different types of wine. 
 
