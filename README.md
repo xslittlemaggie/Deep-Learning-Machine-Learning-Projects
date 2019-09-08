@@ -32,7 +32,7 @@ To further improve the performance, some other classification models could be us
 
 
 
-# Project 2: [Wine Clssification with Decision Tree & Bagging & Random Forest & Boosting](https://github.com/xslittlemaggie/Machine-Learning-Projects/blob/master/Wine_DecisionTree_RandomForest.ipynb)
+# Project 2: [Wine Clssification with Decision Tree & Bagging & Random Forest & Boosting](https://github.com/xslittlemaggie/Machine-Learning-Projects/blob/master/Wine_DecisionTree_RandomForest_Boosting.ipynb)
 ### Part 1: The purpose of the project
 The purpose of this project is to class the different types of wine with four different classifiers:
 - **Decision Tree**: DT is the base model for all the rest 3 classifiers, its performance should be the lowest since it is included in all other classifiers.
