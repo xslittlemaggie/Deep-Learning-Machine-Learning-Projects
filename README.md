@@ -32,17 +32,22 @@ To further improve the performance, some other classification models could be us
 
 
 
-# Project 2: [Wine Clssification with Decision Tree & Random Forest](https://github.com/xslittlemaggie/Machine-Learning-Projects/blob/master/Wine_DecisionTree_RandomForest.ipynb)
+# Project 2: [Wine Clssification with Decision Tree & Bagging & Random Forest & Boosting](https://github.com/xslittlemaggie/Machine-Learning-Projects/blob/master/Wine_DecisionTree_RandomForest.ipynb)
 ### Part 1: The purpose of the project
-The purpose of this project is to class the different types of wine. 
+The purpose of this project is to class the different types of wine with four different classifiers:
+- Decision Tree: DT is the base model for all the rest 3 classifiers, its performance should be the lowest since it is included in all other classifiers.
+- Bagging: Create n number of classifier (decision tree) with the bootstrap method. All DTs are independent to each other, thetically.  
+- Random Forest: similar to bagging
+- Adaptive Boosting: Create n number of classifier (decision tree) with the boosting method. Each tree is determined based on the previous trees. Thus, all DTs are correlated.
 
 ### Part 2: About the data
 The data for this project is the sklearn built-in dataset, wine
 
 ### Part 3: About the techqniues
-#### 3.1 test_train_split to split the training and testing datasets
-#### 3.2 use cross_validation cross check the model performance
-#### 3.3. Decision Tree & Random Forest main parameters
+#### 3.1 Test_train_split to split the training and testing datasets
+#### 3.2 Use cross_validation to cross check the model performance
+#### 3.3 Decision tree visualization
+#### 3.4. Decision Tree & Random Forest main parameters
 - 1. Decision Tree visualization
 - 2. Model fine tune: 
   - n_estimators (**only for random forest, and the most important parameter**)
@@ -52,13 +57,16 @@ The data for this project is the sklearn built-in dataset, wine
   - max_depth
   - min_samples_leaf & min_samples_split
   - max_features
+#### 3.5. Print the features importances
+- It could also be used for the features selection during feature engineering in other projects
 
-### Part 4: Fine tune the parameters of Decision Tree, Random Forest to get the best model  
+### Part 4: Fine tune the parameters of Decision Tree to get the best performance 
+- All other classifiers are created based on the Decision Tree, except the parameter n_estimators.
 
-### Part 5: Comparson of the Decision Tree and Random Forest models. 
-Under the similar conditions, the performance of Random Forest should always be better than that of the Decision Tree since the Decision Tree is included in the Random Forest. 
+### Part 5: Comparson of the Performance of the Decision Tree, Bagging, Random Forest, and Boosting classifiers. 
+Under the similar conditions, the performance of Bagging, Random Forest, and Adaptive Boosting should always be better than that of the Decision Tree since the Decision Tree is included in these classifiers. In addition, the Boosting should have the best performance. 
 
 ### Part 6: Discussion
-Usually the decision tree model or random forest model are easy to be overfitting. The parameters adjusting is usually to decrease the model complexity, to aovid overfitting.
+Usually the decision tree and random forest classiers (the other two classifiers are different, they could use other weak classifier as base models) are easy to be overfitting. The parameters adjusting is usually to decrease the model complexity, to aovid overfitting.
 
 
