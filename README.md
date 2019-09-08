@@ -35,10 +35,10 @@ To further improve the performance, some other classification models could be us
 # Project 2: [Wine Clssification with Decision Tree & Bagging & Random Forest & Boosting](https://github.com/xslittlemaggie/Machine-Learning-Projects/blob/master/Wine_DecisionTree_RandomForest.ipynb)
 ### Part 1: The purpose of the project
 The purpose of this project is to class the different types of wine with four different classifiers:
-- Decision Tree: DT is the base model for all the rest 3 classifiers, its performance should be the lowest since it is included in all other classifiers.
-- Bagging: Create n number of classifier (decision tree) with the bootstrap method. All DTs are independent to each other, thetically.  
-- Random Forest: similar to bagging
-- Adaptive Boosting: Create n number of classifier (decision tree) with the boosting method. Each tree is determined based on the previous trees. Thus, all DTs are correlated.
+- **Decision Tree**: DT is the base model for all the rest 3 classifiers, its performance should be the lowest since it is included in all other classifiers.
+- **Bagging**: Create n weak classifiers (decision tree) with the bootstrap method. All DTs are independent to each other, thetically.  
+- **Random Forest**: similar to bagging
+- **Adaptive Boosting**: Create n weak classifiers (decision tree) with the boosting method. Each tree is determined based on the previous trees. Thus, all DTs are correlated.
 
 ### Part 2: About the data
 The data for this project is the sklearn built-in dataset, wine
