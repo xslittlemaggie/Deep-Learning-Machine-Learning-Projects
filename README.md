@@ -1,4 +1,4 @@
-# Project 1: [Credit Card Fraud Detection](https://github.com/xslittlemaggie/Machine-Learning-Projects/blob/master/CreditCard_LogisticRegression_UnderSample_OverSample.ipynb)
+## Project 1: [Credit Card Fraud Detection](https://github.com/xslittlemaggie/Machine-Learning-Projects/blob/master/CreditCard_LogisticRegression_UnderSample_OverSample.ipynb)
 ### Part 1: The purpose of the project
 The purpose of this project is to detect the fraud for credit card records. 
 
@@ -7,12 +7,12 @@ The sample size for this project is 284807. There is a total of 30 features, Tim
 
 ### Part 3. Data Engineering 
 Before fitting the model, the data engeering was conducted to check the features. 
-1. The feature Time is dropped since it is not related to the target variable, Class.
-2. The features through V1 to V28 are principal components after PCA ranging from about -3 to +3. Thus these features are the main components selected after PCA, and these features are decorrelated. The multicollinearity is not a problem for these features. 
-3. The range of the feature Amount varys significantly from 0 to 25691. Thus the StandardScaler was applied to standaridize the feature Amount to a distribution with mean of 0 and variance of 1.
+1. The feature **Time** is dropped since it is not related to the target variable, Class.
+2. The features through **V1** to **V28** are principal components after PCA ranging from about -3 to +3. Thus these features are the main components selected after PCA, and these features are decorrelated. The multicollinearity is not a problem for these features. 
+3. The range of the feature **Amount** varys significantly from 0 to 25691. Thus the StandardScaler was applied to standaridize the feature Amount to a distribution with mean of 0 and variance of 1.
 
 ### Part 4: About the target Variable, Class
-The distribution of the target variable is imbalanced (class = 0: 284315, class = 1: 492). Next, I will fit the model with three different conditions to check how the sample size impact the model. 
+The distribution of the target variable **Class** is imbalanced (# of class = 0: 284315, # of class = 1: 492). Next, I will fit the model with three different conditions to check how the sample size will impact the model. 
 
 Model 1: fit the logistic regression model with the original dataset (class = 0: 284315, class = 1: 492) 
 Model 2: fit the logistic regression model with under_sampling to balance the dataset (class = 0: 391, class = 1: 391)
@@ -20,7 +20,7 @@ Model 3: fit the logistic regression model with over_sampling to balance the dat
 
 ### Part 5: Analysis of the three different models
 Model 1: High accuracy (Accuracy = 1.0), Low recall_score (recall_score = 0.64). This is a particular weakness of imbalanced dataset.
-Model 2: Accuracy (Accuracy = 0.94), recall_score (recall_score = 0.93). The accuracy and recall_score seems good. But the price is high number of FP (3377). Take the bank as an example, the purpose is to identify the fraud for further investigation or alert. However, the cost is to identify normal records as frauds falsely. In practice, this huge number of FP (false positive) will make the further investigation or alert impossible. Thus, this model becomes meaningless. 
+Model 2: Accuracy (Accuracy = 0.94), recall_score (recall_score = 0.93). The accuracy and recall_score seems good. But the price is high number of false positive (FP) (3377). Take the bank as an example, the purpose is to identify the fraud for further investigation or alert. However, the cost is to identify normal records as frauds falsely. In practice, this huge number of FP will make the further investigation or alert impossible. Thus, this model becomes meaningless. 
 Model 3: Accuracy (Accuracy = 0.97), recall_score (recall_score = 0.94). Both the accuracy and recall_score improve. And the number of FP (1413) decreases significantly. 
 
 ### Part 6: Discussion
@@ -32,7 +32,7 @@ To further improve the performance, some other classification models could be us
 
 
 
-# Project 2: [Wine Clssification with Decision Tree & Bagging & Random Forest & Boosting](https://github.com/xslittlemaggie/Machine-Learning-Projects/blob/master/Wine_DecisionTree_RandomForest_Boosting.ipynb)
+## Project 2: [Wine Clssification with Decision Tree & Bagging & Random Forest & Boosting](https://github.com/xslittlemaggie/Machine-Learning-Projects/blob/master/Wine_DecisionTree_RandomForest_Boosting.ipynb)
 ### Part 1: The purpose of the project
 The purpose of this project is to class the different types of wine with four different classifiers:
 - **Decision Tree**: DT is the base model for all the rest 3 classifiers, its performance should be the lowest since it is included in all other classifiers.
